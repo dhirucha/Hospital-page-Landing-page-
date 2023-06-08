@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+    background-image: url("../assets/stethoscope.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 70vh;
+  }
+
+ul li{
+    
+    list-style: none;
+    
+    
+   
+  
+}
+
+.nav-links{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* position: absolute;
+  right: 20px; */
+  
+  gap: 40px;
+  
+}
+
+.navbar{
+  display: flex;
+  
+  color: black;
+  font-weight: 900;
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+  
+  
+}
+
+a:hover{
+  color: rgba(86, 141, 229, 1.00);
+  animation: 0.3s ease-in;
+  border: 2px solid rgb(2, 19, 47);
+  border-radius: 8px;
+
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.hero-head
+{
+  
+  height: 370px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  
+}
+h1{
+  font-size: 4rem;
+  font-weight: 1200;
+}
+
+.mouse{
+  position: absolute;
+  bottom: auto;
+  right: 700px;
+}
+
+.para-section{
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.maa-btn{
+  border: none;
+  color: white;
+  padding:15px 20px;
+  margin-top: 30px;
+  border-radius: 40px;
+  background-color: #20bc7e;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.maa-btn:hover{
+  background-color: transparent;
+  border: 3px solid #20bc7e;
+  color: cadetblue;
+  cursor: pointer;
+}
+
+.bottom-angle{
+  margin-left: 550px;
+  margin-bottom: 100px;
+}
+
+.greenbox, .yellowbox{
+  position: absolute;
+  right: 10px;
+  top: 250px;
+  /* height: 600px;
+  width:600px; */
+}
+
+.yellowbox{
+  position: absolute;
+  top: 350px;
+  height: 400px;
+  width:400px;
+}
+
+.doctor{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+  
+  
+}
+
+.greenbox{
+  height: 450px;
+  width: 100;
+}
+
+
+  
